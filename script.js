@@ -1,18 +1,31 @@
 TinyTurtle.apply(window);
 
-forward(50);
+function square(x){
+forward(x);
 right(90);
-forward(50);
+forward(x);
 right(90);
-forward(50);
+forward(x);
 right(90);
-forward(50);
+forward(x);
 right(90);
-forward(50);
+forward(x);
+}
+square(90);
+
+function triangle(y){
 right(60);
-forward(30);
+forward(y);
 right(60);
-forward(28);
+forward(y);
+}
+triangle(50);
+
+function pentagon(){
+    forward(50);
+    
+}
+pentagon();
 
 
 
