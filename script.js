@@ -21,13 +21,16 @@ forward(y);
 }
 triangle(50);
 
-function pentagon(){
+function trapezoid(size){
     forward(50);
-    
+    right(60);
+    forward(45);
+    right(63);
+    forward(45);
 }
-pentagon();
+trapezoid();
 
-
+trapezoid(size);
 
 
 
